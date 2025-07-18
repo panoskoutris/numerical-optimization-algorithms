@@ -1,47 +1,48 @@
 # Numerical Optimization Algorithms
 
-MATLAB implementations of numerical optimization algorithms, covering univariate, multivariate, and constrained optimization. Each part focuses on applying specific methods to minimize given mathematical functions under various conditions and parameters.
+MATLAB implementations of numerical optimization algorithms, covering univariate, multivariate, and constrained optimization. Each part focuses on applying specific methods to minimize mathematical functions under various conditions and parameters.
 
-Developed as part of the course Optimization Techniques at the Aristotle University of Thessaloniki (AUTH), School of Electrical & Computer Engineering.
+Developed as part of the course *Optimization Techniques* at the Aristotle University of Thessaloniki (AUTH), School of Electrical & Computer Engineering.
+
+---
 
 ## 📘 Part 1: Univariate Optimization
 
-**Goal:** Minimize three convex one-dimensional functions over fixed intervals using derivative-free and derivative-based methods.
+**Goal:** Minimize three convex one-dimensional functions over fixed intervals using both derivative-free and derivative-based methods.
 
 ### 🔍 Methods Implemented:
-
 - **Bisection Method** (without derivative)
 - **Bisection Method with derivative**
 - **Golden Section Search**
 - **Fibonacci Search**
 
 ### 🧪 Applied To:
-Each method is tested on 3 different convex functions defined on a closed interval \([a, b]\), with varying:
+Each method is applied to three convex functions defined on an interval \([a, b]\), with varying:
 - Interval tolerance `l`
 - Accuracy parameter `ε`
 
 ### 🔧 Tasks:
-- Compare performance by iteration count and function evaluations
-- Plot convergence behavior across all methods
-- Analyze robustness and sensitivity to parameter changes
+- Compare performance via iteration count and function evaluations
+- Plot convergence behavior for all methods
+- Analyze robustness and sensitivity to parameter choices
 
 ---
 
 ## 📘 Part 2: Multivariate Optimization
 
 **Goal:** Minimize the two-variable function:
+
 \[
 f(x, y) = x^5 \cdot e^{-(x^2 + y^2)}
 \]
 
 ### 🔍 Methods Implemented:
-
 - **Steepest Descent** (Gradient Descent)
 - **Newton's Method**
 - **Levenberg–Marquardt Algorithm**
 
 ### 🚀 Initialization:
-Each method is tested from the following starting points:
+Each method is tested from different starting points:
 - (0, 0)
 - (−1, 1)
 - (1, −1)
@@ -53,14 +54,14 @@ Each method is tested from the following starting points:
 
 ### 🔧 Tasks:
 - Evaluate convergence for each method–point–strategy combination
-- Analyze convergence speed, stability, and path taken
+- Analyze convergence speed, stability, and optimization paths
 - Visualize and interpret convergence surfaces and trajectories
 
 ---
 
 ## 📘 Part 3: Constrained Optimization
 
-**Goal:** Minimize a quadratic function with projection to satisfy box constraints.
+**Goal:** Minimize a quadratic function under box constraints using a projected gradient approach.
 
 ### 📉 Function:
 \[
@@ -72,17 +73,16 @@ f(x_1, x_2) = \frac{1}{3}x_1^2 + 3x_2^2
 - \(0 \leq x_2 \leq 10\)
 
 ### 🔍 Method Implemented:
-
 - **Projected Gradient Descent**
-  - Uses projection operator \( \text{Pr}_X \{\cdot\} \) to ensure feasibility
+  - Uses projection operator \( \text{Pr}_X \{\cdot\} \) to enforce feasibility
 
 ### 🧪 Experiments:
-- Run the algorithm with different step sizes `s` and interpolation factors `γ`
-- Apply method from different starting points: e.g. (4,5), (5, -5), (−5, 10)
-- Assess convergence, feasibility, and oscillatory behavior
+- Test with different step sizes `s` and interpolation factors `γ`
+- Explore behavior from different starting points (e.g. (4, 5), (5, −5), (−5, 10))
+- Assess convergence, constraint satisfaction, and oscillatory behavior
 
 ### 🧠 Key Insight:
-Stability and convergence depend heavily on the product \( s \cdot \gamma \) staying below a derived theoretical threshold (e.g. \( < \frac{1}{3} \))
+Stability depends on keeping \( s \cdot \gamma \) below a theoretical threshold (e.g., \( < \frac{1}{3} \))
 
 ---
 
@@ -93,7 +93,9 @@ Stability and convergence depend heavily on the product \( s \cdot \gamma \) sta
 
 ## 🚀 How to Run
 
-TO BE IMPLEMENTED
+To be added soon.
+
+---
 
 ## 📁 Repository Structure
 
@@ -111,22 +113,26 @@ numerical-optimization-algorithms/
 │ ├── newton_method.m
 │ ├── levenberg_marquardt.m
 │ ├── line_search_strategies.m
-│ └── plots/ # Convergence behavior for different step rules and starting points
+│ └── plots/ # Convergence behavior and step comparisons
 │
 ├── part3-projection-method/
 │ ├── projected_gradient_descent.m
 │ ├── constraints.m
-│ └── plots/ # Iteration paths and convergence under box constraints
+│ └── plots/ # Iteration paths under box constraints
 │
 └── README.md
 ```
+
+---
+
 ## ✍️ Author
 
 **Panagiotis Koutris**  
 Student at ECE AUTH – School of Electrical & Computer Engineering
 
+---
 
 ## 📄 License
 
-This project is released under the MIT License.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
