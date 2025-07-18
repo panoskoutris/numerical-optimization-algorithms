@@ -32,9 +32,7 @@ Each method is applied to three convex functions defined on an interval \([a, b]
 
 **Goal:** Minimize the two-variable function:
 
-\[
-f(x, y) = x^5 \cdot e^{-(x^2 + y^2)}
-\]
+`f(x, y) = x^5 · e^(−(x² + y²))`
 
 ### 🔍 Methods Implemented:
 - **Steepest Descent** (Gradient Descent)
