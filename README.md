@@ -73,7 +73,7 @@ Each method is tested from different starting points:
 
 ### 🔍 Method Implemented:
 - **Projected Gradient Descent**
-  - Uses projection operator \( \text{Pr}_X \{\cdot\} \) to enforce feasibility
+  - Uses projection operator Prₓ{·}  to enforce feasibility
 
 ### 🧪 Experiments:
 - Test with different step sizes `s` and interpolation factors `γ`
@@ -81,7 +81,7 @@ Each method is tested from different starting points:
 - Assess convergence, constraint satisfaction, and oscillatory behavior
 
 ### 🧠 Key Insight:
-Stability depends on keeping \( s \cdot \gamma \) below a theoretical threshold (e.g., \( < \frac{1}{3} \))
+Stability depends on keeping *s · γ*  below a theoretical threshold (e.g., less than 1/3)
 
 ---
 
