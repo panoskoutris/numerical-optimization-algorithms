@@ -62,13 +62,14 @@ Each method is tested from different starting points:
 **Goal:** Minimize a quadratic function under box constraints using a projected gradient approach.
 
 ### 📉 Function:
-\[
-f(x_1, x_2) = \frac{1}{3}x_1^2 + 3x_2^2
-\]
+
+`f(x₁, x₂) = (1/3)x₁² + 3x₂²`
+
 
 ### 📐 Constraints (Box):
-- \(-10 \leq x_1 \leq 5\)
-- \(0 \leq x_2 \leq 10\)
+- −10 ≤ x₁ ≤ 5  
+- 0 ≤ x₂ ≤ 10
+
 
 ### 🔍 Method Implemented:
 - **Projected Gradient Descent**
