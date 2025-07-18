@@ -95,6 +95,31 @@ Stability and convergence depend heavily on the product \( s \cdot \gamma \) sta
 
 TO BE IMPLEMENTED
 
+## 📁 Repository Structure
+
+```
+numerical-optimization-algorithms/
+├── part1-univariate-methods/
+│ ├── bisection.m
+│ ├── bisection_with_derivative.m
+│ ├── golden_section.m
+│ ├── fibonacci.m
+│ └── plots/ # Convergence plots for different l and ε
+│
+├── part2-multivariate-methods/
+│ ├── steepest_descent.m
+│ ├── newton_method.m
+│ ├── levenberg_marquardt.m
+│ ├── line_search_strategies.m
+│ └── plots/ # Convergence behavior for different step rules and starting points
+│
+├── part3-projection-method/
+│ ├── projected_gradient_descent.m
+│ ├── constraints.m
+│ └── plots/ # Iteration paths and convergence under box constraints
+│
+└── README.md
+```
 ## ✍️ Author
 
 **Panagiotis Koutris**  
