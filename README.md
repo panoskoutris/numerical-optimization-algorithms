@@ -1,2 +1,3 @@
-# numerical-optimization-algorithms
-Implementation of numerical optimization algorithms in MATLAB, including unconstrained and constrained methods, gradient-based techniques, penalty and barrier approaches, and problem-specific modeling.
+# Numerical Optimization Algorithms
+
+This repository contains MATLAB implementations of numerical optimization algorithms, covering univariate, multivariate, and constrained optimization. Each part focuses on applying specific methods to minimize given mathematical functions under various conditions and parameters.
