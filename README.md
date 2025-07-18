@@ -87,7 +87,7 @@ Stability depends on keeping *s · γ*  below a theoretical threshold (e.g., les
 
 ## 📊 Tools and Languages
 
-- MATLAB (R2021b or newer recommended)
+- MATLAB 
 - Plotting utilities for convergence and trajectory visualization
 
 ## 🚀 How to Run
