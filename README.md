@@ -88,7 +88,7 @@ Stability depends on keeping *s · γ*  below a theoretical threshold (e.g., les
 ## 📊 Tools and Languages
 
 - MATLAB
-- MATLAB Optimization Toolbox 
+- Symbolic Math Toolbox
 - Plotting utilities for convergence and trajectory visualization
 
 ---
