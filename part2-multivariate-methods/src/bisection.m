@@ -1,4 +1,4 @@
-function gamma = bisector_search(f, x, d, a, b, l, e)
+function gamma = bisection(f, x, d, a, b, l, e)
     max_iterations = 50;
     for iter = 1:max_iterations
         if (b - a) <= l
