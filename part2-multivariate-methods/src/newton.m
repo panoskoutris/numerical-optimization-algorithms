@@ -1,4 +1,4 @@
-function [x_history, f_history] = newton_method(f, grad_f, hessian_f, x0, gamma_type, max_iter, tol, sigma)
+function [x_history, f_history] = newton(f, grad_f, hessian_f, x0, gamma_type, max_iter, tol, sigma)
     x = x0(:);  % Ensure x0 is a column vector
     x_history = x;
     f_history = f(x);
