@@ -2,7 +2,7 @@
 
 MATLAB implementations of numerical optimization algorithms, covering univariate, multivariate, and constrained optimization. Each part focuses on applying specific methods to minimize mathematical functions under various conditions and parameters.
 
-Developed as part of the course *Optimization Techniques* at the Aristotle University of Thessaloniki (AUTH), School of Electrical & Computer Engineering.
+Developed as part of the course **Optimization Techniques** at the Aristotle University of Thessaloniki (AUTH), School of Electrical & Computer Engineering.
 
 ---
 
@@ -150,5 +150,5 @@ Student at ECE AUTH – School of Electrical & Computer Engineering
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the MIT License
 
