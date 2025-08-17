@@ -66,7 +66,7 @@ Each method is tested from different starting points:
 `f(x₁, x₂) = (1/3)x₁² + 3x₂²`
 
 
-### 📐 Constraints (Box):
+###  Constraints (Box):
 - −10 ≤ x₁ ≤ 5  
 - 0 ≤ x₂ ≤ 10
 
@@ -144,7 +144,7 @@ numerical-optimization-algorithms
 ##  Author
 
 **Panagiotis Koutris**  
-Student at ECE AUTH – School of Electrical & Computer Engineering
+Undergraduate at ECE AUTH – School of Electrical & Computer Engineering
 
 ---
 
