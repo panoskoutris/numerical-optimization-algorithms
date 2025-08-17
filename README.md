@@ -6,62 +6,62 @@ Developed as part of the course **Optimization Techniques** at the Aristotle Uni
 
 ---
 
-## 📘 Part 1: Univariate Optimization
+##  Part 1: Univariate Optimization
 
 **Goal:** Minimize three convex one-dimensional functions over fixed intervals using both derivative-free and derivative-based methods.
 
-### 🔍 Methods Implemented:
+###  Methods Implemented:
 - **Bisection Method** (without derivative)
 - **Bisection Method with derivative**
 - **Golden Section Search**
 - **Fibonacci Search**
 
-### 🧪 Applied To:
+###  Applied To:
 Each method is applied to three convex functions defined on an interval \([a, b]\), with varying:
 - Interval tolerance `l`
 - Accuracy parameter `ε`
 
-### 🔧 Tasks:
+###  Tasks:
 - Compare performance via iteration count and function evaluations
 - Plot convergence behavior for all methods
 - Analyze robustness and sensitivity to parameter choices
 
 ---
 
-## 📘 Part 2: Multivariate Optimization
+## Part 2: Multivariate Optimization
 
 **Goal:** Minimize the two-variable function:
 
 `f(x, y) = x^5 · e^(−(x² + y²))`
 
-### 🔍 Methods Implemented:
+###  Methods Implemented:
 - **Steepest Descent** (Gradient Descent)
 - **Newton's Method**
 - **Levenberg–Marquardt Algorithm**
 
-### 🚀 Initialization:
+###  Initialization:
 Each method is tested from different starting points:
 - (0, 0)
 - (−1, 1)
 - (1, −1)
 
-### 🧭 Step Size Strategies:
+###  Step Size Strategies:
 - Fixed step size
 - **Exact Line Search** using Bisection
 - **Armijo Rule**
 
-### 🔧 Tasks:
+###  Tasks:
 - Evaluate convergence for each method–point–strategy combination
 - Analyze convergence speed, stability, and optimization paths
 - Visualize and interpret convergence surfaces and trajectories
 
 ---
 
-## 📘 Part 3: Constrained Optimization
+##  Part 3: Constrained Optimization
 
 **Goal:** Minimize a quadratic function under box constraints using a projected gradient approach.
 
-### 📉 Function:
+###  Function:
 
 `f(x₁, x₂) = (1/3)x₁² + 3x₂²`
 
@@ -71,21 +71,21 @@ Each method is tested from different starting points:
 - 0 ≤ x₂ ≤ 10
 
 
-### 🔍 Method Implemented:
+###  Method Implemented:
 - **Projected Gradient Descent**
   - Uses projection operator Prₓ{·}  to enforce feasibility
 
-### 🧪 Experiments:
+###  Experiments:
 - Test with different step sizes `s` and interpolation factors `γ`
 - Explore behavior from different starting points (e.g. (4, 5), (5, −5), (−5, 10))
 - Assess convergence, constraint satisfaction, and oscillatory behavior
 
-### 🧠 Key Insight:
+###  Key Insight:
 Stability depends on keeping *s · γ*  below a theoretical threshold (e.g., less than 1/3)
 
 ---
 
-## 📊 Tools and Languages
+##  Tools and Languages
 
 - MATLAB
 - Symbolic Math Toolbox
@@ -93,7 +93,7 @@ Stability depends on keeping *s · γ*  below a theoretical threshold (e.g., les
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 numerical-optimization-algorithms
@@ -141,7 +141,7 @@ numerical-optimization-algorithms
 
 ---
 
-## ✍️ Author
+##  Author
 
 **Panagiotis Koutris**  
 Student at ECE AUTH – School of Electrical & Computer Engineering
